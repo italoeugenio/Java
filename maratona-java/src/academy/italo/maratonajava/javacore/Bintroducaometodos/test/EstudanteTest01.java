@@ -20,7 +20,7 @@ public class EstudanteTest01 {
 
        impressora.imprime(estudante01);
        impressora.imprime(estudante02);
-       //Tipos primitivos passam uma cópia, quando passar parâmetros via referencia afeta o objeto idenpendente
+       //Tipos primitivos são passados por valor, enquanto passar parâmetros por referência afeta o objeto independentemente.
        impressora.imprime(estudante01);
        impressora.imprime(estudante02);
     }
