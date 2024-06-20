@@ -24,6 +24,6 @@ public class FuncionarioTestCorrecao {
         funcionarioCorrecao3.setIdade(23);
         funcionarioCorrecao3.setSalarios(new double[]{100000, 987.32, 2000});
         funcionarioCorrecao3.imprime();
-        System.out.println("Média: " + funcionarioCorrecao3.getMedia() );
+        System.out.println("Média: " + funcionarioCorrecao3.getMedia());
     }
 }
