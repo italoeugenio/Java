@@ -8,7 +8,7 @@ public class FuncionarioTest {
 
         funcionario.nome = "Ítalo";
         funcionario.idade = 20;
-        funcionario.salario = new float[] {12.5f,15,15};
+        funcionario.salario = new float[]{12.5f, 15, 15};
 
         funcionario.imprimirDados(funcionario);
         float media = funcionario.mediaDoSalario(funcionario.salario);

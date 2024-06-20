@@ -23,7 +23,6 @@ public class Funcionario {
         for(float numeros : salarios){
             soma += numeros;
         }
-        float media = soma/salarios.length;
-        return media;
+        return soma/salarios.length;
     }
 }

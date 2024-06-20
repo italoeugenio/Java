@@ -10,7 +10,7 @@ public class FuncionarioTestCorrecao {
 
         funcionarioCorrecao.nome = "Naruto";
         funcionarioCorrecao.idade = 15;
-        funcionarioCorrecao.salarios = new double[]{1200, 987.32,2000};
+        funcionarioCorrecao.salarios = new double[]{1200, 987.32, 2000};
         funcionarioCorrecao.imprime();
         funcionarioCorrecao2.nome = "Sasuke";
         funcionarioCorrecao2.idade = 17;
@@ -18,7 +18,7 @@ public class FuncionarioTestCorrecao {
         funcionarioCorrecao2.imprime();
         funcionarioCorrecao3.nome = "Alem4o";
         funcionarioCorrecao3.idade = 23;
-        funcionarioCorrecao3.salarios = new double[]{100000, 987.32,2000};
+        funcionarioCorrecao3.salarios = new double[]{100000, 987.32, 2000};
         funcionarioCorrecao3.imprime();
     }
 }
