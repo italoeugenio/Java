@@ -16,7 +16,7 @@ public class Anime {
     }
 
     public Anime(String nome, String tipo, int episodios, String genero, String estudio){
-        //This() precisa estar sempre na primeira linha; 
+        //This() precisa estar sempre na primeira linha;
         this(nome, tipo, episodios, genero);
         this.estudio = estudio;
     }
