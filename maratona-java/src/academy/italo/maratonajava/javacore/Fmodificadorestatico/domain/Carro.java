@@ -3,7 +3,7 @@ package academy.italo.maratonajava.javacore.Fmodificadorestatico.domain;
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
-    //Perte a todos o objetos de forma única e nao para cada instancia e sim para o objeto geral.
+    //Pertence a todos os objetos de forma única, não a cada instância, mas sim ao objeto geral.
     public static double velocidadeLimite = 250;
 
     public Carro(String nome, double velocidadeMaxima){
