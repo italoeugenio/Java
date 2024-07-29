@@ -7,7 +7,7 @@ public class Ex22 {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Digite um número para saber se é par ou ímpar ou digite 'sair' para sair:");
+            System.out.print("\nDigite um número para saber se é par ou ímpar ou digite 'sair' para sair:");
             String input = scanner.nextLine();
 
             if ("sair".equalsIgnoreCase(input)) {
