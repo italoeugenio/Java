@@ -1,4 +1,4 @@
 package academy.italo.loiane.exercicios.loops;
 
-public class Ex38 {
+public class Ex39 {
 }
