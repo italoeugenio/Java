@@ -22,8 +22,11 @@ public class Ex16 {
         }
 
         Arrays.sort(numeros);
-        System.out.println("Maior e menor número do array");
+        System.out.println("Menor e maior número do array");
         System.out.println(numeros[0]);
         System.out.println(numeros[numeros.length - 1]);
+
+        int amplitude = numeros[numeros.length - 1] - numeros[0];
+        System.out.println("AMPLITUDE TOTAL = " + amplitude);
     }
 }
