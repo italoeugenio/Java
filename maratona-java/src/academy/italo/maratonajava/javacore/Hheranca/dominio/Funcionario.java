@@ -19,6 +19,7 @@ public class Funcionario extends Pessoa {
         System.out.println("Dentro do construtor de funcionario");
     }
 
+    @Override
     public void imprime(){
         super.imprime();
         System.out.println(this.salario);
