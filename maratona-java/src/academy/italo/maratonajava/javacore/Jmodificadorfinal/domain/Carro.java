@@ -1,4 +1,4 @@
-package academy.italo.maratonajava.Jmodificadorfinal.domain;
+package academy.italo.maratonajava.javacore.Jmodificadorfinal.domain;
 
 public class Carro {
     private String nome;

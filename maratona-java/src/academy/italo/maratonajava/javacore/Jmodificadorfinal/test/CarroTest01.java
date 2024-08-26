@@ -1,8 +1,7 @@
-package academy.italo.maratonajava.Jmodificadorfinal.test;
+package academy.italo.maratonajava.javacore.Jmodificadorfinal.test;
 
-import academy.italo.maratonajava.Jmodificadorfinal.domain.Carro;
-import academy.italo.maratonajava.Jmodificadorfinal.domain.Comprador;
-import academy.italo.maratonajava.Jmodificadorfinal.domain.Ferrari;
+import academy.italo.maratonajava.javacore.Jmodificadorfinal.domain.Carro;
+import academy.italo.maratonajava.javacore.Jmodificadorfinal.domain.Ferrari;
 
 public class CarroTest01 {
     public static void main(String[] args) {
