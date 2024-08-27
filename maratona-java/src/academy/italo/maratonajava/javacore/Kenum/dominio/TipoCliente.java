@@ -4,13 +4,13 @@ public enum TipoCliente {
     PESSOA_FISICA(1),
     PESSOA_JURIDICA(2);
 
-    private final int VALOR;
+    private int valor;
 
     TipoCliente(int valor) {
-        this.VALOR = valor;
+        this.valor = valor;
     }
 
     public int getVALOR() {
-        return VALOR;
+        return valor;
     }
 }
