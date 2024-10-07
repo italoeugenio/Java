@@ -18,7 +18,7 @@ public class Ex16 {
 
         System.out.println("Números inseridos:");
         for (int num: numeros){
-            System.out.println(" "+num);
+            System.out.println(num);
         }
 
         Arrays.sort(numeros);
