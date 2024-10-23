@@ -28,5 +28,7 @@ public class Ex08 {
 
         System.out.println("--MÉDIA DA TURMA--");
         System.out.println(somaDaTurma/(quantidadeDeAlunos * quantidadeDeProvas));
+
+
     }
 }
