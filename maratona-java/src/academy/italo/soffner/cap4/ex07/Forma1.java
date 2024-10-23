@@ -1,8 +1,8 @@
-package academy.italo.soffner.cap4;
+package academy.italo.soffner.cap4.ex07;
 
 import java.util.Scanner;
 
-public class Ex07 {
+public class Forma1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] listaNumeros = new int[3];

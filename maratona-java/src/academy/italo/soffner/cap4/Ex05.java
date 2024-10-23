@@ -13,9 +13,10 @@ public class Ex05 {
             System.out.print("Digite varios números para saber a média deles (0 para sair):");
             float numeros = scanner.nextFloat();
 
-            soma += numeros;
-            cont++;
-
+            if(numeros % 2 == 0){
+                soma += numeros;
+                cont++;
+            }
             media = soma / cont;
 
             if (numeros == 0) {
