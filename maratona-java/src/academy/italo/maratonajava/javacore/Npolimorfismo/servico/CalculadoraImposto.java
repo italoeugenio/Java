@@ -1,5 +1,6 @@
 package academy.italo.maratonajava.javacore.Npolimorfismo.servico;
 
+import academy.italo.maratonajava.javacore.Npolimorfismo.dominio.Computador;
 import academy.italo.maratonajava.javacore.Npolimorfismo.dominio.Produto;
 import academy.italo.maratonajava.javacore.Npolimorfismo.dominio.Tomate;
 
@@ -15,5 +16,12 @@ public class CalculadoraImposto {
 //            ((Tomate) produto).getDataValidade(); outro exemplo da linha abaixo
             System.out.println("Data de validade: "+ tomate.getDataValidade());
         }
+    }
+
+    public static void calculaImpostoComputador(Computador computador) {
+    }
+
+    public static void calculaImpostoTomate(Tomate tomate) {
+
     }
 }
