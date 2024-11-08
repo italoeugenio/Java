@@ -16,7 +16,7 @@ public class Ex15 {
 
         int anoAtual = (2024 - ano) + 1;
 
-        int meses = (365 * anoAtual)/12;
+        int meses = 12 * anoAtual;
         int dias = 30 * anoAtual;
 
         System.out.println();

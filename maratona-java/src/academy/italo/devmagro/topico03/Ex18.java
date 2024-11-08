@@ -3,27 +3,25 @@ package academy.italo.devmagro.topico03;
 public class Ex18 {
     public static void main(String[] args) {
 
-        int qntAnos = 0;
+        float qntAnos = 0;
+        float alturaFrancisco = 1.50f;
+        float alturaSarah = 1.10f;
 
-        float calculoDoFrancisco = 1.50f + (2 * qntAnos);
-        float calculoDaSarah = 1.10f + (3 * qntAnos);
 
-        while(true){
-            System.out.println("---Calculo---");
-            System.out.println("Francisco: " + calculoDoFrancisco);
-            System.out.println("Sarah: " + calculoDaSarah);
-            System.out.println("Anos: " + qntAnos);
-            System.out.println("--------------");
-            System.out.println();
-            qntAnos++;
+        while (alturaFrancisco >= alturaSarah){
+            qntAnos += 0.1F;
+            alturaFrancisco = 1.50f + (2 * qntAnos);
+            alturaSarah = 1.10f + (3 * qntAnos);
 
-            calculoDoFrancisco = 1.50f + (2 * qntAnos);
-            calculoDaSarah = 1.10f + (3 * qntAnos);
-
-            if(calculoDoFrancisco > calculoDaSarah){
+            if(alturaFrancisco > alturaSarah){
                 break;
             }
         }
-        System.out.println("Francisco será maior que Sara após " + qntAnos + " anos.");
+
+        System.out.println("---Calculo---");
+        System.out.println("Francisco: " + alturaFrancisco + " metros");
+        System.out.println("Sarah: " + alturaSarah + " metros");
+        System.out.println("Anos necessários: " + qntAnos);
+        System.out.println("--------------");
     }
 }
