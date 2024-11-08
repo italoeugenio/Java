@@ -15,9 +15,11 @@ public class Ex24 {
         System.out.print("Digite quantos minutos você gastou: ");
         float tempoEmMinutos = scanner.nextFloat();
 
-        float tempoTotal = tempoEmHoras + (tempoEmMinutos * 60);
-        float distancia = tempoTotal / velocidade;
+        float tempoTotal = tempoEmHoras + (tempoEmMinutos / 60);
+        float distancia = tempoTotal * velocidade;
 
+
+        System.out.println();
         System.out.println("Distância: " + distancia);
         System.out.printf("Litros usados: %.2f", (distancia/12));
     }
