@@ -3,7 +3,7 @@ package academy.italo.maratonajava.javacore.Uregex.test;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternMatcherTest04 {
+public class PatternMatcherTest05 {
     public static void main(String[] args) {
         // \d = Todos os digitos
         // \D = Tudo que não for digito
@@ -20,8 +20,8 @@ public class PatternMatcherTest04 {
         // | Significa "ou" o(v|c)o = ovo ou oco
         // $
         // . 1.3 = 123, 133, 1%3, ou seja, qualquer valor entre 1 e 3
-        String regex = "0[xX]([0-9a-fA-F]{1,8})+(\\s|$)";
-        String texto = "12 0x 0X 0xFFaBC 0x10G 0x1";
+        String regex = "([a-zA-Z0-9._-+])";
+        String texto = "kirito@hotmail.com, 123jordan@gmail.com, #@!zoro@mail.br, teste@gmail.com, sakura@mail";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
 
