@@ -20,7 +20,7 @@ public class PatternMatcherTest05 {
         // | Significa "ou" o(v|c)o = ovo ou oco
         // $
         // . 1.3 = 123, 133, 1%3, ou seja, qualquer valor entre 1 e 3
-        String regex = "([a-zA-Z0-9._-+])";
+        String regex = "([a-zA-Z0-9\\._-])+@(gmail\\.com|hotmail\\.com)";
         String texto = "kirito@hotmail.com, 123jordan@gmail.com, #@!zoro@mail.br, teste@gmail.com, sakura@mail";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
