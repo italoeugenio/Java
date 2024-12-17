@@ -21,7 +21,7 @@ public class PatternMatcherTest05 {
         // $
         // . 1.3 = 123, 133, 1%3, ou seja, qualquer valor entre 1 e 3
         String regex = "([a-zA-Z0-9\\._-])+@(gmail\\.com|hotmail\\.com)";
-        String texto = "kirito@hotmail.com, 123jordan@gmail.com, #@!zoro@mail.br, teste@gmail.com, sakura@mail";
+        String texto = "kirito@hotmail.com, 123jordan@gmail.com, #@!zoro@mail.br,teste@gmail.com.br, sakura@mail";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
 
@@ -31,5 +31,7 @@ public class PatternMatcherTest05 {
         while(matcher.find()){
             System.out.print(matcher.start() +  " " + matcher.group() + "\n");
         }
+
+        // https://regexr.com/
     }
 }
