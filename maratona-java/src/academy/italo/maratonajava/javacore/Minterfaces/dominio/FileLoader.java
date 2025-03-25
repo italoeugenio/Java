@@ -15,4 +15,8 @@ public class FileLoader implements DataLoader, DataRemover{
     public void checkPermission() {
         System.out.println("Checando permissões no arquivo");
     }
+
+    public void teste(){
+        System.out.println("teste");
+    }
 }

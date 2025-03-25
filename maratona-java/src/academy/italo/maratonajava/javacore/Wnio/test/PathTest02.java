@@ -13,7 +13,7 @@ public class PathTest02 {
             Path pastaDiretorio = Files.createDirectory(pastaPath);
         }
 
-        Path subpasta = Paths.get("teste/italo/trabalho");
+        Path subpasta = Paths.get("Teste/italo/trabalho");
         Path subpastaPath = Files.createDirectories(subpasta); // Não lanca exceptions
 
 
