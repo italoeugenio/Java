@@ -6,7 +6,7 @@ public class Mochila<T> {
     private ArrayList<T> ferramentas;
 
     public Mochila() {
-
+        this.ferramentas = new ArrayList<>();
     }
 
     public void adicionarFerramenta(T ferramenta){
@@ -17,5 +17,9 @@ public class Mochila<T> {
         for(T ferramenta: ferramentas){
             System.out.println(ferramenta);
         }
+    }
+
+    public ArrayList<T> getFerramentas() {
+        return ferramentas;
     }
 }
