@@ -1,4 +1,4 @@
-package academy.italo.generics;
+package academy.italo.maratonajava.generics;
 
 public class Pergaminho {
     private String conteudo;

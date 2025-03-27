@@ -1,4 +1,4 @@
-package academy.italo.generics;
+package academy.italo.maratonajava.generics;
 
 import java.util.ArrayList;
 
