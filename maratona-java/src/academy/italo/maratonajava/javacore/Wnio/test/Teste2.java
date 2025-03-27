@@ -8,5 +8,7 @@ public class Teste2 {
         for(Teste testes: teste) {
             System.out.println(testes.getValor());
         }
+
+        //
     }
 }
