@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class ExceptionTest01 {
     private static void criarNovoArquivo() throws IOException {
-        File file = new File("arquivo/teste.txt");
+        File file = new File("arquivo/Teste.txt");
 
         try {
             boolean isCriado = file.createNewFile();
