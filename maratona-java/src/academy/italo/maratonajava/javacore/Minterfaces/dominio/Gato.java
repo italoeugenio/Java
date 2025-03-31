@@ -11,4 +11,5 @@ public interface Gato {
     }
 
      void miarVoid();
+
 }
