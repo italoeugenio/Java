@@ -24,9 +24,9 @@ public class Ex11 {
         System.out.printf("MÉDIA DO %s: ", nome);
         System.out.println(media);
         if(media >= 7){
-            System.out.println("Aluno APROVADO");
+            System.out.println("Student APROVADO");
         } else {
-            System.out.println("Aluno REPROVADO");
+            System.out.println("Student REPROVADO");
         }
 
     }
