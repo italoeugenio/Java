@@ -1,16 +1,42 @@
 package academy.italo.maratonajava.javacore.XSerializacao.dominio;
 
-import java.io.Serializable;
+import java.io.*;
 
 public class Student implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 3499108540197341L;
     private Long id;
     private String name;
-    private String password;
+    private transient String password;
+    private static final String DONTCHANGE = "I AM STATIC";
+    private transient StudentClass studentClass;
 
     public Student(Long id, String name, String password) {
         this.id = id;
         this.name = name;
         this.password = password;
+    }
+
+    @Serial
+    private void writeObject(ObjectOutputStream objectOutputStream) {
+        try {
+            objectOutputStream.defaultWriteObject();
+            objectOutputStream.writeUTF(studentClass.getName());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Serial
+    private void readObject(ObjectInputStream objectInputStream) {
+        try {
+            objectInputStream.defaultReadObject();
+            // Corrigido: uso errado do objectOutputStream, substituído corretamente por leitura
+            String className = objectInputStream.readUTF();
+            this.studentClass = new StudentClass(className);
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public Long getId() {
@@ -37,12 +63,22 @@ public class Student implements Serializable {
         this.password = password;
     }
 
+    public StudentClass getStudentClass() {
+        return studentClass;
+    }
+
+    public void setStudentClass(StudentClass studentClass) {
+        this.studentClass = studentClass;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", password='" + password + '\'' +
+                ", DONTCHANGE=" + DONTCHANGE +
+                ", StudentClass=" + studentClass +
                 '}';
     }
 }
