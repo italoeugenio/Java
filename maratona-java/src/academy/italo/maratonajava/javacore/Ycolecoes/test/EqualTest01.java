@@ -2,6 +2,7 @@ package academy.italo.maratonajava.javacore.Ycolecoes.test;
 
 import academy.italo.maratonajava.javacore.Ycolecoes.dominio.SmartPhone;
 
+
 public class EqualTest01 {
     public static void main(String[] args) {
         String name = "Italo";
@@ -15,5 +16,7 @@ public class EqualTest01 {
 
         System.out.println("---SMARTPHONE---");
         System.out.println(s1.equals(s2));
+
+
     }
 }
