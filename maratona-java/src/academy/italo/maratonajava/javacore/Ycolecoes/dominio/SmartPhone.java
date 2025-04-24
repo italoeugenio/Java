@@ -24,6 +24,14 @@ public class SmartPhone {
         return super.hashCode();
     }
 
+    @Override
+    public String toString() {
+        return "SmartPhone{" +
+                "marcar='" + marcar + '\'' +
+                ", serialNumber='" + serialNumber + '\'' +
+                '}';
+    }
+
     public String getMarcar() {
         return marcar;
     }
