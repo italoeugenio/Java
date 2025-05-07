@@ -1,4 +1,4 @@
-package academy.italo.maratonajava.javacore.ZGenerics.test;
+package academy.italo.maratonajava.javacore.ZGenerics.test.teste;
 
 abstract class Animal {
     public abstract void consulta();
@@ -24,7 +24,7 @@ public class WildCardTeste01 {
         Cachorro[] cachorros = {new Cachorro(), new Cachorro()};
         Cat[] cats = {new Cat(), new Cat()};
         printConsulta(cats);
-        printConsulta(cachorros);
+        printConsulta(cachorros  );
     }
 
     private static void printConsulta(Animal[] animals){

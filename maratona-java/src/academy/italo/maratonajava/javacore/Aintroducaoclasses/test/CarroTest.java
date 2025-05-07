@@ -17,12 +17,12 @@ public class CarroTest {
 
 //        carro2 = carro1;
 
-        System.out.println("Carro 1");
+        System.out.println("Car 1");
         System.out.println(carro1.nome);
         System.out.println(carro1.modelo);
         System.out.println(carro1.ano);
         System.out.println();
-        System.out.println("Carro 2");
+        System.out.println("Car 2");
         System.out.println(carro2.nome);
         System.out.println(carro2.modelo);
         System.out.println(carro2.ano);
