@@ -1,6 +1,6 @@
-package academy.italo.maratonajava.javacore.ZGenerics.test.service;
+package academy.italo.maratonajava.javacore.ZGenerics.service;
 
-import academy.italo.maratonajava.javacore.ZGenerics.test.domain.Car;
+import academy.italo.maratonajava.javacore.ZGenerics.domain.Car;
 
 import java.util.ArrayList;
 import java.util.List;

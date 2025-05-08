@@ -1,13 +1,11 @@
- package academy.italo.maratonajava.javacore.ZGenerics.test.teste;
+ package academy.italo.maratonajava.javacore.ZGenerics.teste;
 
-import academy.italo.maratonajava.javacore.ZGenerics.test.domain.Boat;
-import academy.italo.maratonajava.javacore.ZGenerics.test.domain.Car;
-import academy.italo.maratonajava.javacore.ZGenerics.test.service.CarRentavelService;
-import academy.italo.maratonajava.javacore.ZGenerics.test.service.RentavelService;
+import academy.italo.maratonajava.javacore.ZGenerics.domain.Boat;
+import academy.italo.maratonajava.javacore.ZGenerics.domain.Car;
+import academy.italo.maratonajava.javacore.ZGenerics.service.RentavelService;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.ListIterator;
 
  public class ClasseGenericaTeste03 {
     public static void main(String[] args) {

@@ -1,15 +1,15 @@
-package academy.italo.maratonajava.javacore.ZGenerics.test.domain;
+package academy.italo.maratonajava.javacore.ZGenerics.domain;
 
-public class Car {
+public class Boat {
     private String name;
 
-    public Car(String name) {
+    public Boat(String name) {
         this.name = name;
     }
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "Boat{" +
                 "name='" + name + '\'' +
                 '}';
     }

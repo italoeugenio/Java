@@ -1,4 +1,4 @@
-package academy.italo.maratonajava.javacore.ZGenerics.test.teste;
+package academy.italo.maratonajava.javacore.ZGenerics.teste;
 
 abstract class Animal {
     public abstract void consulta();

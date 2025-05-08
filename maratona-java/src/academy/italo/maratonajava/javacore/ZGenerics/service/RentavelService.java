@@ -1,4 +1,4 @@
-package academy.italo.maratonajava.javacore.ZGenerics.test.service;
+package academy.italo.maratonajava.javacore.ZGenerics.service;
 
 import java.util.List;
 

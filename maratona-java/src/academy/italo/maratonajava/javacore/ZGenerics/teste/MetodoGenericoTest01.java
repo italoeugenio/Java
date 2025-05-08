@@ -1,8 +1,7 @@
-package academy.italo.maratonajava.javacore.ZGenerics.test.teste;
+package academy.italo.maratonajava.javacore.ZGenerics.teste;
 
-import academy.italo.maratonajava.javacore.ZGenerics.test.domain.Boat;
+import academy.italo.maratonajava.javacore.ZGenerics.domain.Boat;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MetodoGenericoTest01 {
