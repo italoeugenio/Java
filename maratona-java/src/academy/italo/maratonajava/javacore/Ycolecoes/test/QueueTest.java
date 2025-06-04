@@ -1,5 +1,6 @@
 package academy.italo.maratonajava.javacore.Ycolecoes.test;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -37,5 +38,15 @@ public class QueueTest {
         while (!customPriorityQueue.isEmpty()) {
             System.out.println("Processing: " + customPriorityQueue.poll());
         }
+
+        String[] teste = {"eat","tea","tan","ate","nat","bat"};
+
+        for(int i = 0; i < teste.length; i++){
+            String[] wordSplit = teste[i].split("");
+            Arrays.sort(wordSplit);
+            teste[i] = String.join("",wordSplit);
+        }
+
+        System.out.println(Arrays.toString(teste));
     }
 }
