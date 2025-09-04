@@ -13,6 +13,6 @@ public class OuterClassesTest01 {
     public static void main(String[] args) {
         OuterClassesTest01 outerClass = new OuterClassesTest01();
         Inner inner = outerClass.new Inner();
-
+        inner.printOuterClassAtribute();
     }
 }
