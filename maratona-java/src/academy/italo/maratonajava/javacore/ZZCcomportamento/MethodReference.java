@@ -22,5 +22,17 @@ public class MethodReference {
                 .collect(Collectors.toList());
 
         System.out.println(ids);
+
+        //Desafio: Crie uma nova lista que contenha apenas os números pares.
+        List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        List<Integer> EvenNum = numbers.stream()
+                .filter(num -> num % 2 == 0)
+                .toList();
+
+        List<Integer> powTwo = numbers.stream()
+                .map(num -> num * num)
+                .toList();
+
+        System.out.println(powTwo);
     }
 }
